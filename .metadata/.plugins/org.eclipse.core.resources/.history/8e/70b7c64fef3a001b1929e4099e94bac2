@@ -1,0 +1,6 @@
+
+public interface Calcula {
+	
+	double calcula(Funcionario funcionario);
+	
+}

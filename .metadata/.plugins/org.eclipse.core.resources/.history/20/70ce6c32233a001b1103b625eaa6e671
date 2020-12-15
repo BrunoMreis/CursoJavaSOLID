@@ -1,0 +1,10 @@
+
+public class DezOuVintePorcento implements Calcula {
+
+	@Override
+	public double calcula(Funcionario funcionario) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

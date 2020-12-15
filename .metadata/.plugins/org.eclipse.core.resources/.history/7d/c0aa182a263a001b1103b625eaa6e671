@@ -1,0 +1,16 @@
+public enum Cargo {
+    DESENVOLVEDOR(new DezOuVintePorcento()),
+    DBA(new QuinzeOuVinteCincoPorcento()),
+    TESTER (new QuinzeOuVinteCincoPorcento());
+
+	private Calculo regra;
+
+	Cargo(Calculo regra) {
+		this.regra = regra
+	}
+	
+	
+	public Calculo getRegra() {
+		return regra;
+	}
+}
